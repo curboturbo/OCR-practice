@@ -48,13 +48,8 @@ try:
             if word: 
                 sym_spell.create_dictionary_entry(word, 1)
     print(f"Словарь успешно загружен из: {corpus_path}. Количество слов: {sym_spell.word_count}")
-except FileNotFoundError:
-    print(f"Ошибка: Файл словаря '{corpus_path}' не найден.")
-    print("Пожалуйста, убедитесь, что файл существует и путь указан верно.")
-    exit()
-except Exception as e:
-    print(f"Произошла ошибка при загрузке словаря: {e}")
-    exit()
+except:
+    pass
 
 
 def correct(text_to_correct):
