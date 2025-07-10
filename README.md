@@ -1,2 +1,2 @@
 # OCR-practice
-practice MAI
+practice MAI, ML system for recognation exam EGE
