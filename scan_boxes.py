@@ -165,8 +165,3 @@ def main(json_file_path, path, photo):
 """json_file_path - path to discription of work,
 path - path to model YOLOv8n,
 photo - path to photo of student work"""
-# if __name__ == '__main__':
-#    json_file_path = r"C:\Users\Tema\Desktop\school\2220206924_02__1_res.txt.webRes"
-#    path = r'C:\Users\Tema\Desktop\leetcode\runs\segment\train\weights\best.pt'
-#    photo = r"C:\Users\Tema\Desktop\2220206924_02.png"
-#    main(json_file_path, path, photo)
