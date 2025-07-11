@@ -1,0 +1,30 @@
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at DeepPavlov/rubert-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+ [231/231 50:26, Epoch 3/3]
+Step	Training Loss
+10	1.414700
+20	1.429000
+30	1.397500
+40	1.382600
+50	1.325500
+60	1.292900
+70	1.376500
+80	1.275700
+90	1.289100
+100	1.302200
+110	1.317400
+120	1.264400
+130	1.267800
+140	1.386200
+150	1.331000
+160	1.324600
+170	1.278200
+180	1.195900
+190	1.290700
+200	1.249100
+210	1.203100
+220	1.175000
+230	1.256000
+ [20/20 00:55]
+Результаты на тестовом наборе:
+{'eval_loss': 1.264003872871399, 'eval_runtime': 58.477, 'eval_samples_per_second': 2.634, 'eval_steps_per_second': 0.342, 'epoch': 3.0}
